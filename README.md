@@ -11,7 +11,7 @@ npm i @yehonadav/lambdaHttp
 ## usage
 
 ```typescript
-import {createHandler, AsyncHandler, httpOkResponse} from "@yehonadav/lambdaHttp"
+import {createHandler, AsyncHandler, httpOkResponse} from "@yehonadav/lambdahttp"
 
 let handler: AsyncHandler = async (event) => {
   // do something

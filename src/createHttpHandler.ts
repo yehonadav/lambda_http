@@ -1,7 +1,7 @@
 import {Context} from "aws-lambda";
 import {HttpResponse, httpResponse} from "./httpResponse";
 import {Callback} from "aws-lambda/handler";
-import {stringifyError} from "@yehonadav/safestringify";
+import {objectifyError} from "@yehonadav/safestringify";
 import {HttpError} from "./httpError";
 import {statusCode} from "@yehonadav/statuscodes";
 
@@ -30,7 +30,7 @@ export const createHandler = <TEvent = any, TResult = any> (handler:AsyncHandler
   catch (e) {
     console.error({
       section,
-      error: stringifyError(e)
+      error: objectifyError(e)
     });
 
     if (e instanceof HttpError)

@@ -18,7 +18,7 @@
     "i:update:version": "npm i && npm run update:version"
   },
   "dependencies": {
-    "@yehonadav/safestringify": "^1.0.4",
+    "@yehonadav/safestringify": "^1.0.5",
     "@yehonadav/statuscodes": "^1.0.6"
   },
   "peerDependencies": {},

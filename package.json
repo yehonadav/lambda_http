@@ -1,6 +1,6 @@
 {
   "name": "@yehonadav/lambdahttp",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "http helpers for serverless http requests",
   "author": "yehonadav",
   "license": "Apache-2.0",
